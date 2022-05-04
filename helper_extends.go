@@ -15,9 +15,9 @@ func helperExtends(view string, options *raymond.Options) raymond.SafeString {
 		return raymond.SafeString(fmt.Sprintf(raymondViewTemplateNotFound, view))
 	}
 
-	bag, ok := options.Ctx().(map[interface{}]interface{})
+	bag, ok := options.Ctx().(map[string]interface{})
 	if !ok {
-		return raymond.SafeString("Unable to encode context")
+		return raymond.SafeString("Unable to convert ViewBag")
 	}
 	bag["subview"] = options.FnWith(options.Ctx())
 	return raymond.SafeString(tpl.MustExec(bag))
