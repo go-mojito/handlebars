@@ -1,0 +1,11 @@
+github.com/go-mojito/mojito v0.0.0-20220504173725-abf0de19050d h1:bCRRgzGCTWbib0cxUvi0NtWK+lHSeksIMQQNRQw/iEg=
+github.com/go-mojito/mojito v0.0.0-20220504173725-abf0de19050d/go.mod h1:B91XM+7rSUvfgPFV+AAACMrtsISjyZnUp+VXtIAmg5k=
+github.com/infinytum/injector v0.0.1 h1:MYHfr75NAeQ66YKDYaer6BgHLbD/UD3o/mCTZcEnXjA=
+github.com/infinytum/injector v0.0.1/go.mod h1:/8absiTs7Afl21cGagOLkXPrypVGZrOSkH4qu/IsP28=
+github.com/infinytum/raymond/v2 v2.0.5 h1:sdbPMfhNnNI9c5gxDPfbgoFYlwTgg4UlSjxqvYnSodY=
+github.com/infinytum/raymond/v2 v2.0.5/go.mod h1:XWq3aImVLUPbCm+hFxmqjIMaBm10z+WjtxLtR0P8oVs=
+github.com/infinytum/structures v0.0.1 h1:DgwnAkvodCn2Zn07/PGM+vZZIlhCZJ+602KudwbQSt8=
+github.com/infinytum/structures v0.0.1/go.mod h1:4vDl7BamOX2fF0B+h2n/xGIorGv1u9ZQ9wgF6IW/Kc8=
+github.com/mitchellh/hashstructure/v2 v2.0.2 h1:vGKWl0YJqUNxE8d+h8f6NJLcCJrgbhC4NcD46KavDd4=
+github.com/mitchellh/hashstructure/v2 v2.0.2/go.mod h1:MG3aRVU/N29oo/V/IhBX8GR/zz4kQkprJgF2EVszyDE=
+gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
