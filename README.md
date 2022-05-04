@@ -20,7 +20,26 @@
 Handlebars for Mojito provides a Handlebars Renderer implementation that was designed specifically for Mojito.
 </p>
 
-<p align="center"><strong>How to use</strong></p>
+<p align="center"><strong>SonarCloud Report</strong></p>
+<p align="center">
+    <a href="https://sonarcloud.io/summary/overall?id=go-mojito_handlebars" alt="Quality Gate">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=go-mojito_handlebars&metric=alert_status" /></a>
+    <a href="https://sonarcloud.io/summary/overall?id=go-mojito_handlebars" alt="Quality Gate">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=go-mojito_handlebars&metric=sqale_rating" /></a>
+    <a href="https://sonarcloud.io/summary/overall?id=go-mojito_handlebars" alt="Quality Gate">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=go-mojito_handlebars&metric=reliability_rating" /></a>
+    <a href="https://sonarcloud.io/summary/overall?id=go-mojito_handlebars" alt="Quality Gate">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=go-mojito_handlebars&metric=security_rating" /></a>
+	<br>
+    <a href="https://sonarcloud.io/summary/overall?id=go-mojito_handlebars" alt="Quality Gate">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=go-mojito_handlebars&metric=vulnerabilities" /></a>
+    <a href="https://sonarcloud.io/summary/overall?id=go-mojito_handlebars" alt="Quality Gate">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=go-mojito_handlebars&metric=code_smells" /></a>
+    <a href="https://sonarcloud.io/summary/overall?id=go-mojito_handlebars" alt="Quality Gate">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=go-mojito_handlebars&metric=bugs" /></a>
+</p>
+
+<p align="center"><strong>How to register</strong></p>
 <p align="center">To register the handlebars renderer as default, do the following in your main file</p>
 
 ```go
