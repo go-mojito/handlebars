@@ -43,8 +43,6 @@ Handlebars for Mojito provides a Handlebars Renderer implementation that was des
 <p align="center">To register the handlebars renderer as default, do the following in your main file</p>
 
 ```go
-package main
-
 func init() {
     handlebars.AsDefault()
 }
@@ -52,8 +50,6 @@ func init() {
 <p align="center">To register the handlebars renderer as a named renderer, do the following in your main file</p>
 
 ```go
-package main
-
 func init() {
     handlebars.As("myRenderer")
 }
