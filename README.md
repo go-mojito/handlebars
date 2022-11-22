@@ -22,7 +22,7 @@
 		
 </p>
 <p align="center">
-fasthttp for Mojito provides a fasthttp Router implementation that was designed specifically for Mojito with full compatibility.
+handlebars for Mojito provides a handlebars Renderer implementation that was designed specifically for Mojito with full compatibility.
 </p>
 
 <p align="center"><strong>SonarCloud Report</strong></p>
