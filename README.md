@@ -1,3 +1,8 @@
+<p align="center">
+    <img src="/.github/assets/gopher.png"
+        height="300">
+</p>
+
 <h1 align="center"><strong>Handlebars for Mojito</strong></h1>
 <p align="center">
     <a href="https://goreportcard.com/report/github.com/go-mojito/handlebars" alt="Go Report Card">
@@ -17,7 +22,7 @@
 		
 </p>
 <p align="center">
-Handlebars for Mojito provides a Handlebars Renderer implementation that was designed specifically for Mojito.
+fasthttp for Mojito provides a fasthttp Router implementation that was designed specifically for Mojito with full compatibility.
 </p>
 
 <p align="center"><strong>SonarCloud Report</strong></p>
@@ -39,18 +44,28 @@ Handlebars for Mojito provides a Handlebars Renderer implementation that was des
         <img src="https://sonarcloud.io/api/project_badges/measure?project=go-mojito_handlebars&metric=bugs" /></a>
 </p>
 
-<p align="center"><strong>How to register</strong></p>
-<p align="center">To register the handlebars renderer as default, do the following in your main file</p>
+<p align="center"><strong>Quickstart</strong></p>
+<p align="center">To start using handlebars as your renderer just enable it as the default renderer like this:</p>
 
 ```go
 func init() {
     handlebars.AsDefault()
 }
 ```
-<p align="center">To register the handlebars renderer as a named renderer, do the following in your main file</p>
+
+<p align="center">Or to use handlebars as a secondary renderer you can register it as a named renderer like this:</p>
 
 ```go
 func init() {
     handlebars.As("myRenderer")
 }
 ```
+
+<p align="center"><strong>Documentation</strong></p>
+<p align="center">
+	Read our
+	<a href="https://go-mojito.infinytum.co/docs">Documentation</a>, check out the 
+	<a href="https://go-mojito.infinytum.co/">Project Website</a>.
+</p>
+
+<p align="center"><sub>Icon made with <a href="https://gopherize.me">Gopherize</a> and <a href="https://www.flaticon.com/free-icon/mojito_920710">flaticon</a>.</sub></p>
