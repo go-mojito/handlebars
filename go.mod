@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/go-mojito/mojito v0.0.15
-	github.com/infinytum/injector v0.0.2
+	github.com/infinytum/injector v0.0.3
 	github.com/infinytum/raymond/v2 v2.0.5
 )
 
