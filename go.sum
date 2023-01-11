@@ -1,7 +1,9 @@
-github.com/go-mojito/mojito v0.0.15 h1:ER7nwFZMHyr+DPWZwzX7Q/m2EQHWkvYpgYfLimFaagw=
-github.com/go-mojito/mojito v0.0.15/go.mod h1:2d4s2uERjkRAXmIDmRJbMD0TFnMW9Ei+jntQ+vcCmJk=
+github.com/go-mojito/mojito v0.0.16 h1:OHv6zmI89ofbhGsbXrQZpZX1HR08xF6XefU8HFAGRWE=
+github.com/go-mojito/mojito v0.0.16/go.mod h1:6gYbGCZFeONuB0eTJQJqwg31+VEoP8aiXeKSH4RYDjM=
 github.com/infinytum/injector v0.0.3 h1:E7oj58MCr0emxPSNoRgGvAUdLwJP797vbD1mRSoOBQg=
 github.com/infinytum/injector v0.0.3/go.mod h1:/8absiTs7Afl21cGagOLkXPrypVGZrOSkH4qu/IsP28=
+github.com/infinytum/introspector v0.0.0-20221124203324-542f216aab81 h1:RG//Cr6nLKKWbdNDGavwFEuUInvzIk2wfmPG8LZBVaI=
+github.com/infinytum/introspector v0.0.0-20221124203324-542f216aab81/go.mod h1:dmvMBbIXJwxA894yU/cUHs+qFznxcxM9nqWq+kL/dPc=
 github.com/infinytum/raymond/v2 v2.0.5 h1:sdbPMfhNnNI9c5gxDPfbgoFYlwTgg4UlSjxqvYnSodY=
 github.com/infinytum/raymond/v2 v2.0.5/go.mod h1:XWq3aImVLUPbCm+hFxmqjIMaBm10z+WjtxLtR0P8oVs=
 github.com/infinytum/structures v0.0.3 h1:OackN0CC4OKpUwp9esX/VbzIbdql2t9pccPWA1dZANI=
@@ -10,8 +12,8 @@ github.com/julienschmidt/httprouter v1.3.0 h1:U0609e9tgbseu3rBINet9P48AI/D3oJs4d
 github.com/julienschmidt/httprouter v1.3.0/go.mod h1:JR6WtHb+2LUe8TCKY3cZOxFyyO8IZAc4RVcycCCAKdM=
 github.com/mitchellh/hashstructure/v2 v2.0.2 h1:vGKWl0YJqUNxE8d+h8f6NJLcCJrgbhC4NcD46KavDd4=
 github.com/mitchellh/hashstructure/v2 v2.0.2/go.mod h1:MG3aRVU/N29oo/V/IhBX8GR/zz4kQkprJgF2EVszyDE=
-golang.org/x/net v0.2.0 h1:sZfSu1wtKLGlWI4ZZayP0ck9Y73K1ynO6gqzTdBVdPU=
-golang.org/x/net v0.2.0/go.mod h1:KqCZLdyyvdV855qA2rE3GC2aiw5xGR5TEjj8smXukLY=
-golang.org/x/text v0.4.0 h1:BrVqGRd7+k1DiOgtnFvAkoQEWQvBc25ouMJM6429SFg=
-golang.org/x/text v0.4.0/go.mod h1:mrYo+phRRbMaCq/xk9113O4dZlRixOauAjOtrjsXDZ8=
+golang.org/x/net v0.5.0 h1:GyT4nK/YDHSqa1c4753ouYCDajOYKTja9Xb/OHtgvSw=
+golang.org/x/net v0.5.0/go.mod h1:DivGGAXEgPSlEBzxGzZI+ZLohi+xUj054jfeKui00ws=
+golang.org/x/text v0.6.0 h1:3XmdazWV+ubf7QgHSTWeykHOci5oeekaGJBLkrkaw4k=
+golang.org/x/text v0.6.0/go.mod h1:mrYo+phRRbMaCq/xk9113O4dZlRixOauAjOtrjsXDZ8=
 gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
