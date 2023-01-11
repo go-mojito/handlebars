@@ -5,16 +5,23 @@ import (
 	"github.com/infinytum/injector"
 )
 
-func AsDefault() {
-	As(injector.DefaultForType)
+func AsDefault() error {
+	return As(injector.DefaultForType)
 }
 
-func As(name string) {
+func As(name string) error {
 	handlebars := &HandlebarsRenderer{}
-	injector.Singleton(func() mojito.Renderer {
+
+	if err := injector.Singleton(func() mojito.Renderer {
 		return handlebars
-	})
-	injector.Singleton(func() mojito.FileRenderer {
+	}); err != nil {
+		return err
+	}
+
+	if err := injector.Singleton(func() mojito.FileRenderer {
 		return handlebars
-	})
+	}); err != nil {
+		return err
+	}
+	return nil
 }
