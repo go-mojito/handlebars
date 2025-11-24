@@ -11,7 +11,7 @@ import (
 func helperExtends(view string, options *raymond.Options) raymond.SafeString {
 	tpl, err := raymond.ParseFile(normalizeViewPath(view))
 	if err != nil {
-		log.Error(err)
+		log.Error("Failed to parse template", "error", err, "view", view)
 		return raymond.SafeString(fmt.Sprintf(raymondViewTemplateNotFound, view))
 	}
 

@@ -19,7 +19,7 @@ func normalizeViewPath(view string) string {
 	if strings.HasPrefix(path, TemplateDir()) {
 		return path
 	}
-	log.Warnf("Attempted path traversal to " + path)
+	log.Warn("Attempted path traversal", "path", path)
 	return TemplateDir()
 }
 

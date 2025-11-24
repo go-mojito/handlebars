@@ -33,7 +33,7 @@ func (*HandlebarsRenderer) TemplateDir() string {
 func (*HandlebarsRenderer) Render(view string, bag renderer.ViewBag) (string, error) {
 	tpl, err := raymond.ParseFile(normalizeViewPath(view))
 	if err != nil {
-		log.Error(err)
+		log.Error("Failed to parse template", "error", err, "view", view)
 		return fmt.Sprintf(raymondViewTemplateNotFound, view), err
 	}
 	return tpl.Exec(bag.ToMap())
@@ -43,7 +43,7 @@ func resolvePartial(view string) *raymond.Partial {
 	path := normalizeViewPath(view)
 	tpl, err := raymond.ParseFile(path)
 	if err != nil {
-		log.Error(err)
+		log.Error("Failed to parse partial", "error", err, "view", view)
 		return nil
 	}
 	return raymond.NewPartial(view, path, tpl)

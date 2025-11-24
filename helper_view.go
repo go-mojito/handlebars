@@ -11,7 +11,7 @@ import (
 func helperView(view string, bag interface{}) raymond.SafeString {
 	tpl, err := raymond.ParseFile(normalizeViewPath(view))
 	if err != nil {
-		log.Error(err)
+		log.Error("Failed to parse template", "error", err, "view", view)
 		return raymond.SafeString(fmt.Sprintf(raymondViewTemplateNotFound, view))
 	}
 	return raymond.SafeString(tpl.MustExec(bag))
